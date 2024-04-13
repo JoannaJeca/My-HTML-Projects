@@ -1,0 +1,122 @@
+*{
+    margin:0;
+    padding:0;
+}
+section{
+    background-color: white;
+    width:100%;
+    height:100%;
+}
+header{
+    /* background-color:brown; */
+    width:100%;
+    height:85px;
+    display: flex;
+    align-items: center;
+
+}
+header>img{
+    width:22%;
+    height:60%;
+    margin-left:35px
+}
+.firsthold{
+    width:100%;
+    height:75vh;
+    background-image:url(./IMAGES/peopleseated.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    display: flex;
+    justify-content:center;
+    align-items:center
+}
+.firsthold>h2{
+    font-size:35px;
+    font-weight:115px;
+    color:white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.textholder{
+    width:100%;
+    height:50vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border-radius:10px;
+    margin-top: 50px;
+
+}
+.hold{
+    width:50%;
+    height:85%;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.hold>h2{
+    font-size:35px;
+    font-weight:115px;
+    margin-bottom:15px
+}
+.divver{
+    width:70%;
+    height:30%
+}
+button{
+    width:15%;
+    height:11.5%;
+    background-color: orange;
+    color:white;
+    border:none;
+    border-radius:9px;
+    margin:1px
+}
+.secondpart{
+    width:100%;
+    height:75vh;
+    background-color: rgba(0, 0, 255, 0.59);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.holding{
+    width:60%;
+    height:70%;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column
+}
+.inp{
+    width:600px;
+    height:44px;
+    border-radius: 11px;
+    border:2px solid white;
+    background-color:transparent;
+    color:white;
+}
+.inpu{
+    width:600px;
+    height:55px;
+    border-radius:11px;
+    border:2px solid white;
+    background-color:transparent;
+}
+label{
+    color:white;
+    font-weight:500px;
+}
+.holding>h2{
+    color:white
+}
+.holding>form>button{
+    height:40px;
+    width:70px;
+    border-radius:10px
+}
